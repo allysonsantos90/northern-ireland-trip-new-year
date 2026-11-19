@@ -1,1 +1,188 @@
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f7f7f1;color:#1c2b27;font-family:"DM Sans",sans-serif}.topbar{height:76px;padding:0 6vw;background:#142322;color:#fff;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:20}.brand{display:flex;align-items:center;gap:11px;color:#fff;text-decoration:none;font-size:10px;font-weight:700;letter-spacing:2px}.brand small{display:block;color:#b5c1b8;font-size:8px;letter-spacing:1.5px;margin-top:5px}.mark{display:grid;place-items:center;border:1px solid #bba77a;width:34px;height:34px;color:#d9c69c;font:20px Georgia}.topbar nav,.actions{display:flex;align-items:center;gap:25px}.topbar nav a,.cta{font-size:11px;color:#d9e0da;text-decoration:none}.cta{color:#e0cda3}.language-switch{border:1px solid #60716b;border-radius:30px;padding:3px;display:flex;gap:3px}.lang-btn{border:0;background:none;color:#dbe1dc;padding:7px 10px;border-radius:20px;font-weight:700;cursor:pointer}.lang-btn.active{background:#e7dfce;color:#1b302b}.hero{min-height:650px;height:calc(90vh - 76px);max-height:850px;position:relative;background:#142322;color:#fff;display:flex;align-items:center;padding:7vw 10vw;overflow:hidden}.hero-bg{position:absolute;inset:0;background:linear-gradient(90deg,#0a1616dc,#0a16167a 55%,#0a16161a),url("https://commons.wikimedia.org/wiki/Special:FilePath/Giant%27s%20Causeway%20and%20the%20Basalt%20Columns.jpg") center/cover}.hero-content{position:relative;max-width:650px}.eyebrow{font-size:10px;letter-spacing:2.5px;font-weight:700;color:#cbb98e;margin:0 0 22px}.eyebrow.dark{color:#6a7a70}.hero h1,.wrap h2,.coast h2,.closing h2,.practical h2{font-family:"Playfair Display",serif;font-weight:500;letter-spacing:-1.5px}.hero h1{font-size:clamp(58px,8vw,100px);line-height:.98;margin:0 0 24px}.hero h1 em,.coast h2 em{color:#cbb98e}.hero-copy{max-width:450px;color:#e0e5df;font-size:15px;line-height:1.8}.hero-links{display:flex;align-items:center;gap:25px;margin-top:34px}.button{display:inline-block;padding:15px 20px;font-size:10px;letter-spacing:1px;font-weight:700;text-transform:uppercase;text-decoration:none;border:0;cursor:pointer}.light{background:#f4f1e8;color:#172724}.underlink{color:white;font-size:11px;text-decoration:none;border-bottom:1px solid #a5b0a9;padding:8px 0}.hero-bottom{position:absolute;bottom:28px;left:6vw;right:6vw;display:flex;justify-content:space-between;color:#d2d9d2;font-size:9px;letter-spacing:1.5px}.wrap{max-width:1280px;margin:auto;padding-left:6vw;padding-right:6vw}.intro{padding-top:110px;padding-bottom:100px;display:grid;grid-template-columns:1.1fr 1fr;gap:25px 8%;align-items:end}.wrap h2,.practical h2{font-size:clamp(42px,5vw,65px);line-height:1.08;margin:0}.wrap h2 em,.closing h2 em{color:#557266}.intro-copy{font-size:14px;line-height:1.9;color:#5c6966;margin:0}.facts{grid-column:1/-1;display:flex;gap:75px;border-top:1px solid #dce1d9;padding-top:24px;margin-top:28px}.facts div{display:flex;align-items:baseline;gap:10px}.facts b{font:34px "Playfair Display"}.facts span{font-size:9px;letter-spacing:1.5px;color:#75827c}.destinations{padding-top:20px;padding-bottom:100px}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:34px}.arrows{display:flex;gap:8px}.arrows button{width:42px;height:42px;border:1px solid #b9c2ba;border-radius:50%;background:none;font-size:20px;cursor:pointer}.carousel{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 42px)/3);gap:21px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:10px}.carousel::-webkit-scrollbar{display:none}.place-card{scroll-snap-align:start;min-width:0}.place-card img{width:100%;height:260px;object-fit:cover;background:#dce1da}.place-card small{display:block;margin-top:18px;color:#79877e;font-size:9px;letter-spacing:1.4px}.place-card h3{font:500 30px/1.05 "Playfair Display";margin:12px 0}.place-card p{font-size:12px;line-height:1.75;color:#687570;min-height:62px}.place-card a{font-size:10px;font-weight:700;border-bottom:1px solid #9baa9f;padding-bottom:6px;text-decoration:none;color:#263a32}.carousel-foot{text-align:right;font-size:9px;letter-spacing:1.5px;color:#7b8982;margin-top:24px}.coast{min-height:500px;background:#152424;color:#fff;display:grid;grid-template-columns:1.1fr .9fr}.coast-image{background:url("https://commons.wikimedia.org/wiki/Special:FilePath/Carrick-a-Rede%20Rope%20Bridge%20and%20cliffs.jpg") center/cover;min-height:500px}.coast-copy{padding:80px clamp(35px,7vw,100px);align-self:center}.coast h2{font-size:clamp(48px,6vw,75px);line-height:1.02;margin:0 0 20px}.coast-copy>p:not(.eyebrow){color:#c2ccc5;font-size:13px;line-height:1.9;max-width:390px}.outline{border:1px solid #718078;color:#fff;margin-top:20px}.itinerary{padding-top:110px;padding-bottom:110px}.heading-note{max-width:330px;font-size:13px;line-height:1.8;color:#6b7972;margin:0 0 7px}.timeline{margin-top:48px;border-top:1px solid #dce1d9}.day{display:grid;grid-template-columns:110px 1fr;gap:35px;padding:32px 14px;border-bottom:1px solid #dce1d9;align-items:start}.day-number{font:44px "Playfair Display"}.day-number strong{display:block;font:700 9px "DM Sans";letter-spacing:1.5px;color:#8a978f}.day small{font-size:9px;letter-spacing:1.6px;color:#9a865e;font-weight:700}.day h3{font:500 29px "Playfair Display";margin:10px 0}.day p{font-size:13px;line-height:1.8;color:#66736d;max-width:780px;margin:0}.featured{background:#eff0e8;border-left:3px solid #b49a68;padding-left:20px}.tag{display:inline-block;margin:15px 6px 0 0;background:#e6ece4;color:#52685d;padding:7px 10px;font-size:9px}.map-section{padding-top:20px;padding-bottom:100px}.map-card{position:relative;min-height:420px;background:#e8e9e2}.map-card iframe{width:100%;height:440px;border:0;display:block}.map-overlay{position:absolute;left:22px;bottom:22px;max-width:min(390px,calc(100% - 44px));background:#152424;color:white;padding:22px;display:grid;gap:10px}.map-overlay b{font:500 24px "Playfair Display"}.map-overlay span{font-size:11px;line-height:1.6;color:#c7d1ca}.map-overlay a{font-size:10px;color:#e1cda3;text-underline-offset:4px}.disclaimer{font-size:10px;color:#758078;line-height:1.7;margin-top:12px}.practical{background:#172727;color:#fff;padding:90px 0 100px}.practical-inner{display:grid;grid-template-columns:.8fr 1.2fr;gap:8%}.practical-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px 40px}.practical-grid small{font-size:9px;letter-spacing:1.5px;color:#c5ad7c}.practical-grid h3{font:500 23px "Playfair Display";margin:10px 0}.practical-grid p{font-size:11px;line-height:1.8;color:#bdc8c0;margin:0}.closing{text-align:center;padding-top:100px;padding-bottom:100px}.closing h2{font-size:clamp(42px,5.7vw,70px);line-height:1.08}.closing>p:not(.eyebrow){font-size:12px;color:#718078;margin:20px 0 27px}.share-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.dark{background:#1a302d;color:white}.whatsapp{background:#e4eee5;color:#234b36;border:1px solid #cad9cd}.closing #copyStatus{display:block;margin-top:12px;font-size:11px;color:#537365;min-height:16px}footer{background:#111d1e;color:#aebbb3;padding:24px 6vw;display:flex;justify-content:space-between;font-size:8px;letter-spacing:1.5px}footer a{color:#d4c29b;text-decoration:none}@media(max-width:850px){.topbar{padding:0 5vw}.topbar nav{gap:14px}.cta{display:none}.intro{grid-template-columns:1fr;gap:20px}.carousel{grid-auto-columns:calc((100% - 20px)/2)}.coast{grid-template-columns:1fr}.coast-image{min-height:330px}.practical-inner{grid-template-columns:1fr;gap:40px}}@media(max-width:560px){.topbar{height:65px}.topbar nav{display:none}.brand{font-size:8px;flex:1}.hero{min-height:640px;height:calc(88svh - 65px);padding:9vw 7vw}.hero h1{font-size:60px}.hero-copy{font-size:13px}.hero-bottom{left:7vw;right:7vw;font-size:7px}.hero-bottom span:last-child{display:none}.wrap{padding-left:7vw;padding-right:7vw}.intro{padding-top:75px;padding-bottom:75px}.facts{gap:30px}.wrap h2{font-size:43px}.section-head{align-items:end}.carousel{grid-auto-columns:84%;gap:15px}.place-card img{height:245px}.coast-image{min-height:280px}.coast-copy{padding:55px 8vw}.coast h2{font-size:54px}.itinerary{padding-top:75px;padding-bottom:75px}.heading-note{display:none}.day{grid-template-columns:60px 1fr;gap:14px;padding:25px 0}.day-number{font-size:34px}.day h3{font-size:25px}.day p{font-size:12px}.featured{padding:18px 12px}.map-section{padding-bottom:75px}.map-card iframe{height:390px}.map-overlay{left:12px;bottom:12px;padding:15px;max-width:calc(100% - 24px)}.practical{padding:70px 0}.practical-grid{gap:25px 18px}.practical-grid h3{font-size:20px}.practical-grid p{font-size:10px}.closing{padding-top:75px;padding-bottom:75px}.closing h2{font-size:44px}.share-actions{flex-direction:column}footer{padding:20px 7vw;gap:10px;flex-wrap:wrap;font-size:7px}footer span:nth-child(2){display:none}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:#f7f7f1;color:#1c2b27;font-family:"DM Sans",sans-serif}
+.topbar{min-height:76px;padding:0 6vw;background:#142322;color:#fff;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:20}
+.brand{display:flex;align-items:center;gap:11px;color:#fff;text-decoration:none;font-size:10px;font-weight:700;letter-spacing:2px}
+.brand small{display:block;color:#b5c1b8;font-size:8px;letter-spacing:1.5px;margin-top:5px}
+.mark{display:grid;place-items:center;border:1px solid #bba77a;width:34px;height:34px;color:#d9c69c;font:20px Georgia}
+.topbar nav,.actions{display:flex;align-items:center;gap:25px}
+.topbar nav a,.cta{font-size:11px;color:#d9e0da;text-decoration:none}
+.cta{color:#e0cda3}
+.language-switch{border:1px solid #60716b;border-radius:30px;padding:3px;display:flex;gap:3px}
+.lang-btn{border:0;background:none;color:#dbe1dc;padding:7px 10px;border-radius:20px;font-weight:700;cursor:pointer}
+.lang-btn.active{background:#e7dfce;color:#1b302b}
+.hero{min-height:650px;height:calc(90vh - 76px);max-height:850px;position:relative;background:#142322;color:#fff;display:flex;align-items:center;padding:7vw 10vw;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:linear-gradient(90deg,#0a1616dc,#0a16167a 55%,#0a16161a),url("https://commons.wikimedia.org/wiki/Special:FilePath/Giant%27s%20Causeway%20and%20the%20Basalt%20Columns.jpg") center/cover}
+.hero-content{position:relative;max-width:650px}
+.eyebrow{font-size:10px;letter-spacing:2.5px;font-weight:700;color:#cbb98e;margin:0 0 22px}
+.eyebrow.dark{color:#6a7a70}
+.hero h1,.wrap h2,.coast h2,.closing h2,.practical h2{font-family:"Playfair Display",serif;font-weight:500;letter-spacing:-1.5px}
+.hero h1{font-size:clamp(58px,8vw,100px);line-height:.98;margin:0 0 24px}
+.hero h1 em,.coast h2 em{color:#cbb98e}
+.hero-copy{max-width:450px;color:#e0e5df;font-size:15px;line-height:1.8}
+.hero-links{display:flex;align-items:center;gap:25px;margin-top:34px}
+.button{display:inline-block;padding:15px 20px;font-size:10px;letter-spacing:1px;font-weight:700;text-transform:uppercase;text-decoration:none;border:0;cursor:pointer}
+.light{background:#f4f1e8;color:#172724}
+.underlink{color:white;font-size:11px;text-decoration:none;border-bottom:1px solid #a5b0a9;padding:8px 0}
+.hero-bottom{position:absolute;bottom:28px;left:6vw;right:6vw;display:flex;justify-content:space-between;color:#d2d9d2;font-size:9px;letter-spacing:1.5px}
+.wrap{max-width:1280px;margin:auto;padding-left:6vw;padding-right:6vw}
+.intro{padding-top:110px;padding-bottom:100px;display:grid;grid-template-columns:1.1fr 1fr;gap:25px 8%;align-items:end}
+.wrap h2,.practical h2{font-size:clamp(42px,5vw,65px);line-height:1.08;margin:0}
+.wrap h2 em,.closing h2 em{color:#557266}
+.intro-copy{font-size:14px;line-height:1.9;color:#5c6966;margin:0}
+.facts{grid-column:1/-1;display:flex;gap:75px;border-top:1px solid #dce1d9;padding-top:24px;margin-top:28px}
+.facts div{display:flex;align-items:baseline;gap:10px}
+.facts b{font:34px "Playfair Display"}
+.facts span{font-size:9px;letter-spacing:1.5px;color:#75827c}
+.destinations{padding-top:20px;padding-bottom:100px}
+.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:34px;gap:25px}
+.arrows{display:flex;gap:8px}
+.arrows button{width:42px;height:42px;border:1px solid #b9c2ba;border-radius:50%;background:none;font-size:20px;cursor:pointer}
+.carousel{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 42px)/3);gap:21px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:10px}
+.carousel::-webkit-scrollbar{display:none}
+.place-card{scroll-snap-align:start;min-width:0}
+.place-card img{width:100%;height:260px;object-fit:cover;background:#dce1da}
+.place-card small{display:block;margin-top:18px;color:#79877e;font-size:9px;letter-spacing:1.4px}
+.place-card h3{font:500 30px/1.05 "Playfair Display";margin:12px 0}
+.place-card p{font-size:12px;line-height:1.75;color:#687570;min-height:62px}
+.place-card a{font-size:10px;font-weight:700;border-bottom:1px solid #9baa9f;padding-bottom:6px;text-decoration:none;color:#263a32}
+.carousel-foot{text-align:right;font-size:9px;letter-spacing:1.5px;color:#7b8982;margin-top:24px}
+.coast{min-height:500px;background:#152424;color:#fff;display:grid;grid-template-columns:1.1fr .9fr}
+.coast-image{background:url("https://commons.wikimedia.org/wiki/Special:FilePath/Carrick-a-Rede%20Rope%20Bridge%20and%20cliffs.jpg") center/cover;min-height:500px}
+.coast-copy{padding:80px clamp(35px,7vw,100px);align-self:center}
+.coast h2{font-size:clamp(48px,6vw,75px);line-height:1.02;margin:0 0 20px}
+.coast-copy>p:not(.eyebrow){color:#c2ccc5;font-size:13px;line-height:1.9;max-width:390px}
+.outline{border:1px solid #718078;color:#fff;margin-top:20px}
+.itinerary{padding-top:110px;padding-bottom:110px}
+.heading-note{max-width:330px;font-size:13px;line-height:1.8;color:#6b7972;margin:0 0 7px}
+.itinerary-overview{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:42px 0 24px}
+.overview-item{display:grid;grid-template-columns:38px 1fr;column-gap:10px;align-items:center;padding:14px;background:#eef0e9;border:1px solid #e0e4dc;border-radius:12px}
+.overview-item>span{grid-row:span 2;width:38px;height:38px;display:grid;place-items:center;background:#fff;border-radius:10px;font-size:18px}
+.overview-item b{font:700 11px "DM Sans";color:#243a32}
+.overview-item small{font-size:10px;color:#748078}
+.timeline{margin-top:0;border:0;display:grid;gap:14px}
+.day-card{display:grid;grid-template-columns:82px minmax(0,1fr);gap:20px;padding:24px;background:#fff;border:1px solid #e3e7df;border-radius:16px;box-shadow:0 8px 24px #233b2c08}
+.day-card-featured{background:#f0f2eb;border-color:#d9dfd4;box-shadow:inset 4px 0 #b49a68,0 8px 24px #233b2c08}
+.day-date{width:68px;height:78px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#edf1eb;border-radius:12px;color:#243a32}
+.day-date span{font:40px/.9 "Playfair Display"}
+.day-date b{font:700 10px "DM Sans";letter-spacing:1.8px;margin-top:6px}
+.day-date small{font:700 9px "DM Sans";color:#8a978f;margin-top:3px}
+.day-heading{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.day-heading>div>small{font-size:9px;letter-spacing:1.4px;color:#9a865e;font-weight:700}
+.day-main h3{font:500 27px "Playfair Display";margin:7px 0 10px}
+.day-main>p{font-size:13px;line-height:1.8;color:#66736d;margin:0;max-width:850px}
+.day-pill{flex:none;border-radius:30px;padding:8px 11px;background:#edf1eb;color:#52685d;font-size:9px;font-weight:700}
+.day-pill.highlight{background:#e6ddc9;color:#66532e}
+.schedule{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:18px}
+.schedule>div{padding:12px;background:#f7f8f4;border-radius:10px}
+.schedule b,.schedule small{display:block}
+.schedule b{font-size:11px;color:#31483d}
+.schedule small{font-size:10px;line-height:1.5;color:#78837d;margin-top:4px}
+.route-flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-top:20px}
+.route-stop{min-width:0;padding:13px 10px;background:#fff;border:1px solid #e3e7df;border-radius:11px;display:flex;gap:8px;align-items:flex-start}
+.stop-number{width:24px;height:24px;display:grid;place-items:center;border-radius:50%;background:#e9eee8;color:#52685d;font-size:10px;font-weight:700;flex:none}
+.route-stop b,.route-stop small{display:block}
+.route-stop b{font-size:11px;line-height:1.35;color:#2d4238}
+.route-stop small{font-size:9px;line-height:1.45;color:#7a867e;margin-top:5px}
+.route-stop.optional{border-style:dashed;background:#fbfaf6}
+.day-callout{display:grid;gap:5px;margin-top:15px;padding:13px 15px;border-left:3px solid #b49a68;background:#e9ece4;border-radius:0 9px 9px 0}
+.day-callout b{font-size:11px;color:#51472f}
+.day-callout span{font-size:10px;line-height:1.6;color:#68736b}
+.day-tags{display:flex;gap:9px;margin-top:14px}
+.day-tags>span{font-size:10px;color:#52685d;background:#e4ebe2;padding:7px 10px;border-radius:20px}
+.map-section{padding-top:20px;padding-bottom:100px}
+.map-card{position:relative;min-height:420px;background:#e8e9e2}
+.map-card iframe{width:100%;height:440px;border:0;display:block}
+.map-overlay{position:absolute;left:22px;bottom:22px;max-width:min(390px,calc(100% - 44px));background:#152424;color:white;padding:22px;display:grid;gap:10px}
+.map-overlay b{font:500 24px "Playfair Display"}
+.map-overlay span{font-size:11px;line-height:1.6;color:#c7d1ca}
+.map-overlay a{font-size:10px;color:#e1cda3;text-underline-offset:4px}
+.disclaimer{font-size:10px;color:#758078;line-height:1.7;margin-top:12px}
+.practical{background:#172727;color:#fff;padding:90px 0 100px}
+.practical-inner{display:grid;grid-template-columns:.8fr 1.2fr;gap:8%}
+.practical-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px 40px}
+.practical-grid small{font-size:9px;letter-spacing:1.5px;color:#c5ad7c}
+.practical-grid h3{font:500 23px "Playfair Display";margin:10px 0}
+.practical-grid p{font-size:11px;line-height:1.8;color:#bdc8c0;margin:0}
+.closing{text-align:center;padding-top:100px;padding-bottom:100px}
+.closing h2{font-size:clamp(42px,5.7vw,70px);line-height:1.08}
+.closing>p:not(.eyebrow){font-size:12px;color:#718078;margin:20px 0 27px}
+.share-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.dark{background:#1a302d;color:white}
+.whatsapp{background:#e4eee5;color:#234b36;border:1px solid #cad9cd}
+.closing #copyStatus{display:block;margin-top:12px;font-size:11px;color:#537365;min-height:16px}
+footer{background:#111d1e;color:#aebbb3;padding:24px 6vw;display:flex;justify-content:space-between;font-size:8px;letter-spacing:1.5px}
+footer a{color:#d4c29b;text-decoration:none}
+@media(max-width:850px){
+  .topbar{padding:10px 5vw;gap:12px;flex-wrap:wrap}
+  .topbar nav{gap:14px}
+  .cta{display:none}
+  .intro{grid-template-columns:1fr;gap:20px}
+  .carousel{grid-auto-columns:calc((100% - 20px)/2)}
+  .coast{grid-template-columns:1fr}
+  .coast-image{min-height:330px}
+  .practical-inner{grid-template-columns:1fr;gap:40px}
+  .itinerary-overview{grid-template-columns:repeat(2,1fr)}
+  .route-flow{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:560px){
+  html{scroll-padding-top:105px}
+  .topbar{min-height:65px;padding:8px 5vw 7px}
+  .topbar nav{display:flex;order:3;width:100%;justify-content:center;gap:clamp(18px,7vw,32px);padding:8px 0 2px}
+  .topbar nav a{font-size:10px}
+  .brand{font-size:8px;flex:1}
+  .actions{gap:8px}
+  .hero{min-height:640px;height:calc(88svh - 65px);padding:9vw 7vw}
+  .hero h1{font-size:60px}
+  .hero-copy{font-size:13px}
+  .hero-bottom{left:7vw;right:7vw;font-size:7px}
+  .hero-bottom span:last-child{display:none}
+  .wrap{padding-left:7vw;padding-right:7vw}
+  .intro{padding-top:75px;padding-bottom:75px}
+  .facts{gap:30px}
+  .wrap h2{font-size:43px}
+  .section-head{align-items:end}
+  .carousel{grid-auto-columns:84%;gap:15px}
+  .place-card img{height:245px}
+  .coast-image{min-height:280px}
+  .coast-copy{padding:55px 8vw}
+  .coast h2{font-size:54px}
+  .itinerary{padding-top:75px;padding-bottom:75px}
+  .heading-note{display:none}
+  .itinerary-overview{gap:8px;margin:28px 0 16px}
+  .overview-item{padding:9px 7px;grid-template-columns:30px 1fr;column-gap:7px}
+  .overview-item>span{width:30px;height:30px;font-size:14px}
+  .overview-item b{font-size:10px}
+  .overview-item small{font-size:9px}
+  .day-card{grid-template-columns:48px minmax(0,1fr);gap:11px;padding:13px 10px;border-radius:13px}
+  .day-date{width:46px;height:60px;border-radius:9px}
+  .day-date span{font-size:29px}
+  .day-date b{font-size:8px;margin-top:4px}
+  .day-heading{display:block}
+  .day-main h3{font-size:22px;margin:7px 0 9px}
+  .day-heading>div>small{font-size:8px;letter-spacing:1px}
+  .day-pill{display:inline-block;margin-bottom:9px;padding:6px 9px;font-size:8px}
+  .day-main>p{font-size:11px;line-height:1.7}
+  .schedule{grid-template-columns:1fr;gap:7px;margin-top:13px}
+  .schedule>div{padding:10px}
+  .schedule b{font-size:10px}
+  .schedule small{font-size:9px}
+  .route-flow{grid-template-columns:1fr;gap:7px;margin-top:14px}
+  .route-stop{padding:10px}
+  .route-stop b{font-size:10px}
+  .route-stop small{font-size:9px}
+  .day-callout{padding:11px;margin-top:12px}
+  .day-callout span{font-size:9px}
+  .map-section{padding-bottom:75px}
+  .map-card iframe{height:390px}
+  .map-overlay{left:12px;bottom:12px;padding:15px;max-width:calc(100% - 24px)}
+  .practical{padding:70px 0}
+  .practical-grid{gap:25px 18px}
+  .practical-grid h3{font-size:20px}
+  .practical-grid p{font-size:10px}
+  .closing{padding-top:75px;padding-bottom:75px}
+  .closing h2{font-size:44px}
+  .share-actions{flex-direction:column}
+  footer{padding:20px 7vw;gap:10px;flex-wrap:wrap;font-size:7px}
+  footer span:nth-child(2){display:none}
+}
