@@ -36,3 +36,17 @@ Open `index.html` in a modern browser. An internet connection is required for th
 ## Images and licensing
 
 Destination photographs are loaded from Wikimedia Commons using `Special:FilePath` links. Image availability and licence terms can change; check each original Commons file page before reusing or redistributing any image. The website also loads Google Fonts and a Google Maps embed from external services.
+
+## Latest itinerary update
+
+- 30 December: Limerick → Dunmurry, Titanic Belfast and central Belfast.
+- 31 December: Carrick-a-Rede, Giant's Causeway, Dunluce Castle and Mussenden Temple; return for New Year's Eve.
+- 1 January: outdoor walking visit to Derry~Londonderry (City Walls, Guildhall exterior, Peace Bridge and Bogside murals). Museum of Free Derry is listed as closed from 21 December 2026 to 2 January 2027.
+- 2 January: return to Limerick.
+
+The PT / EN selector uses a delegated click handler and safe local-storage access. If browser storage is disabled, the language can still be changed for the current page session.
+
+Photo source pages added in this update:
+- Titanic Belfast: https://commons.wikimedia.org/wiki/File:Titanic_Belfast.jpg
+- Derry City Walls: https://commons.wikimedia.org/wiki/File:Derry_City_Walls_06.jpg
+Please retain the source and licence information when reusing the images.
