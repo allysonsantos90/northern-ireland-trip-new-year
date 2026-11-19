@@ -1,29 +1,38 @@
-# Northern Ireland Escape – Réveillon 2026/27
+# Northern Ireland Escape 2026/27
 
-Site estático, responsivo e em português, feito em HTML, CSS e JavaScript puro. Inclui carrossel de destinos, roteiro de quatro dias e botão para copiar um resumo para o WhatsApp.
+A responsive, bilingual (Portuguese / English) travel microsite for the Northern Ireland New Year trip, built with plain HTML, CSS and JavaScript. No build step or framework is required.
 
-## Como visualizar
+## Features
 
-Abra `index.html` no navegador. As fotografias são carregadas do Wikimedia Commons, então é necessária conexão com a internet para exibi-las.
+- PT / EN language switch; the selected language is remembered in the browser.
+- Destination carousel with photo lightbox.
+- Four-day itinerary.
+- Embedded map preview and Google Maps driving route link.
+- Shared-cost calculator (accommodation in GBP; car rental and fuel in EUR).
+- Interactive checklist saved in the current browser.
+- Copy itinerary and share it through WhatsApp.
+- Responsive layout for phones, tablets and desktop.
 
-## Como publicar no GitHub Pages
+## Run locally
 
-1. Crie um repositório no GitHub (por exemplo, `northern-ireland-trip`).
-2. Envie `index.html`, `styles.css`, `script.js` e este `README.md` para a raiz do repositório.
-3. No GitHub, abra **Settings → Pages**.
-4. Em **Build and deployment**, selecione **Deploy from a branch**.
-5. Escolha a branch `main` e a pasta `/ (root)` e clique em **Save**.
-6. Aguarde o GitHub publicar o site. O endereço aparecerá na mesma página de Pages.
+Open `index.html` in a modern browser. An internet connection is required for the remote photos, Google Fonts and embedded map.
 
-## Fotografias e créditos
+## Publish with GitHub Pages
 
-As fotografias deste site são servidas pelo Wikimedia Commons. Confira as páginas originais e os termos de cada imagem antes de reutilizar ou redistribuir as imagens fora deste projeto:
+1. Create a GitHub repository, e.g. `northern-ireland-trip`.
+2. Upload `index.html`, `styles.css`, `script.js` and `README.md` to the repository root.
+3. Open **Settings → Pages**.
+4. Under **Build and deployment**, choose **Deploy from a branch**.
+5. Select branch `main` and folder `/ (root)`, then save.
+6. Wait for GitHub Pages to publish the site; the public URL will appear on the Pages settings screen.
 
-- Carrick-a-Rede Rope Bridge — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Carrick-A-Rede_Rope_Bridge.jpg), DC Chadwick, CC BY-SA.
-- Giant's Causeway — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Giant%27s_Causeway_basalt_columns.JPG), Adam Bishop, CC BY-SA.
-- Mussenden Temple — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mussenden_Temple_overlooking_Downhill_beach._Northern_Ireland.jpg), D LN, CC BY-SA 4.0.
-- Dunluce Castle — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dunluce_Castle,_Northern_Ireland.jpg), Udit Kapoor, CC BY-SA 4.0.
-- Belfast City Hall — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:City_Hall_Belfast.jpg), Peter Clarke, domínio público.
-- Ballintoy Harbour — [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Ballintoy_Harbour), conferir a licença do arquivo escolhido.
+## Notes before the trip
 
-O site usa fontes do Google Fonts. Os horários, acessos e condições das atrações devem ser confirmados nos sites oficiais antes da viagem, especialmente durante o feriado de Ano-Novo.
+- Dates shown: 30 December 2026 to 2 January 2027.
+- The starting budget values are estimates entered for planning. Accommodation is displayed in GBP, while rental car and fuel are displayed in EUR; the calculator deliberately does not convert currencies.
+- Opening hours, admission, weather, bridge access, rental-car cross-border permission and any holiday schedules must be checked with the official providers before departure.
+- The itinerary is a proposal, not a guaranteed timetable. The Causeway Coastal Route is weather-dependent and the order of stops may need to change.
+
+## Images and licensing
+
+Destination photographs are loaded from Wikimedia Commons using `Special:FilePath` links. Image availability and licence terms can change; check each original Commons file page before reusing or redistributing any image. The website also loads Google Fonts and a Google Maps embed from external services.
