@@ -13,3 +13,18 @@
 .top-actions,.language-switch{position:relative;z-index:1102;pointer-events:auto}
 .lang-btn{position:relative;z-index:1103;min-width:40px;min-height:38px;touch-action:manipulation;pointer-events:auto;-webkit-tap-highlight-color:rgba(210,195,157,.25)}
 @media(max-width:560px){.topbar{gap:10px}.topbar nav{display:none}.brand{flex:1;min-width:0}.top-actions{flex:0 0 auto;margin-left:auto}.language-switch{flex:0 0 auto}.lang-btn{min-width:42px;min-height:40px}}
+
+/* Itinerary refresh: image-led day cards with clearer hierarchy */
+.day{grid-template-columns:105px minmax(180px,250px) minmax(0,1fr) 34px;gap:24px;padding:30px 12px;align-items:center}
+.day-visual{height:168px;overflow:hidden;background:#e2e5dc;position:relative}
+.day-visual img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .55s ease}
+.day:hover .day-visual img{transform:scale(1.045)}
+.day-body{padding:8px 0}
+.day-body h3{font-size:clamp(24px,2.3vw,31px);line-height:1.12}
+.day-body>p:not(.day-label){font-size:13px;line-height:1.8}
+.day-label{line-height:1.6}
+.day-side{align-self:start;padding-top:8px}
+.highlight-day{padding:24px 20px;border-left:3px solid #b49a68}
+.day-tags span{border-radius:2px;padding:8px 11px}
+@media(max-width:850px){.day{grid-template-columns:82px 180px minmax(0,1fr) 24px;gap:15px}.day-visual{height:150px}}
+@media(max-width:560px){.day{grid-template-columns:62px minmax(0,1fr);gap:10px 14px;padding:24px 0;align-items:start}.day-visual{grid-column:1/-1;grid-row:1;height:190px;margin-bottom:7px}.day-date{grid-column:1;grid-row:2}.day-body{grid-column:2;grid-row:2;padding:0}.day-side{display:none}.day-date strong{font-size:32px}.day-body h3{font-size:25px}.day-body>p:not(.day-label){font-size:12px}.highlight-day{padding:18px 12px}.day-tags{gap:6px}.day-tags span{font-size:8px}}

@@ -50,3 +50,12 @@ Photo source pages added in this update:
 - Titanic Belfast: https://commons.wikimedia.org/wiki/File:Titanic_Belfast.jpg
 - Derry City Walls: https://commons.wikimedia.org/wiki/File:Derry_City_Walls_06.jpg
 Please retain the source and licence information when reusing the images.
+
+## Visual and content update
+
+- Removed the cost-planning / budget section and its navigation link.
+- Removed the final-preparations checklist section.
+- Removed Bangor & Ballyholme Beach from the destination carousel.
+- Replaced the Portuguese intro headline “Natureza selvagem” with “Paisagens incríveis” and the English equivalent with “Breathtaking views”.
+- Redesigned the itinerary as image-led day cards, with a dedicated destination photo for each day and responsive layouts for mobile screens.
+- Updated the Derry day label to describe the actual city visit rather than calling it a relaxed day.
